@@ -10,22 +10,21 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApplication1
 {
-    public partial class Form1 : Form
+    public partial class shinobu : Form
     {
-        public Form1()
+        public shinobu()
         {
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void pictureBox1_Click(object sender, EventArgs e)
         {
-            Hide();
+
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
-            shinobu imagen = new shinobu();
-            imagen.Show();
+            Close();
         }
     }
 }
